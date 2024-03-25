@@ -34,11 +34,11 @@ export function Header() {
                         </button>
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
-                        <a href="#" className="text-sm font-semibold leading-6">Home</a>
+                        <a href="/" className="text-sm font-semibold leading-6">Home</a>
                         <a href="#" className="text-sm font-semibold leading-6">About Me</a>
-                        <a href="#" className="text-sm font-semibold leading-6">Experience</a>
-                        <a href="#" className="text-sm font-semibold leading-6">Projects</a>
-                        <a href="#" className="text-sm font-semibold leading-6">Contact Me</a>
+                        <a href="#experience" className="text-sm font-semibold leading-6">Experience</a>
+                        <a href="#projects" className="text-sm font-semibold leading-6">Projects</a>
+                        <a href="#contact" className="text-sm font-semibold leading-6">Contact Me</a>
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <a href="#" className="text-sm font-semibold leading-6"><ModeToggle /></a>
@@ -64,9 +64,9 @@ export function Header() {
                                 <div className="space-y-2 py-6">
                                     <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
                                     <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About Me</a>
-                                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Experience</a>
-                                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Projects</a>
-                                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact Me</a>
+                                    <a href="#experience" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Experience</a>
+                                    <a href="#projects" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Projects</a>
+                                    <a href="#contact" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact Me</a>
                                 </div>
                             </div>
                         </div>
